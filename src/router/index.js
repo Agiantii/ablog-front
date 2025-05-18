@@ -6,7 +6,7 @@ import UserProfile from '../views/UserProfile.vue'
 import { useUserStore } from '../stores/user'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.VITE_APP_API_BASE),
+  // history: createWebHistory(import.meta.env.VITE_APP_API_BASE),
   routes: [
     {
       path: '/',
