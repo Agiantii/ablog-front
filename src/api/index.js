@@ -3,7 +3,7 @@ import { ElMessage } from 'element-plus'
 import { useUserStore } from '../stores/user'
 import router from '../router'
 
-const api_baseURL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:9090/api'
+const api_baseURL = import.meta.env.VITE_APP_API_BASE || 'http://localhost:9090/api'
 // 创建axios实例
 const request = axios.create({
   // baseURL: 'http://localhost:9090/api',
